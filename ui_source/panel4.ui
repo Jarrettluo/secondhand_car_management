@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1008</width>
+    <height>947</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="panel4_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>995</width>
+      <height>889</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="panel4_title">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>160</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>960</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>车辆筛选</string>
+     </property>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>571</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="text">
+              <string>车辆编码</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="panel4_lineEdit1"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="text">
+              <string>车牌号</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="panel4_lineEdit2"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>购车时间</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateEdit" name="panel4_dateEdit_1"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateEdit" name="panel4_dateEdit_2"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>售车时间</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateEdit" name="panel4_dateEdit_3"/>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>-</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateEdit" name="panel4_dateEdit_4"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="panel4_pushButton_3">
+           <property name="text">
+            <string>清除筛选</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="panel4_pushButton_4">
+           <property name="text">
+            <string>筛选</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>961</width>
+       <height>611</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="panel4_label">
+          <property name="text">
+           <string>车辆统计信息</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="panel4_label1">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="panel4_pushButton_2">
+          <property name="text">
+           <string>导出报表</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QTableWidget" name="panel4_table1">
+          <column>
+           <property name="text">
+            <string>编码</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>车牌号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>车型号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>上户时间</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>颜色</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>购买价</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>销售时间</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>销售价</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>提成费</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>总利润</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>自家利润</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>伙伴1</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>伙伴1利润</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>伙伴2</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>伙伴2利润</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>伙伴3</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>伙伴3利润</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>伙伴3</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>伙伴4利润</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>备注</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>总支出累计</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="panel4_lineEdit_3"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>总收入累计</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="panel4_lineEdit_4"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>总利润累计</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="panel4_lineEdit_5"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>利润累计</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="panel4_lineEdit_6"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1008</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

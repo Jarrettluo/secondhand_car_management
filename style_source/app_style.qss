@@ -1,0 +1,207 @@
+
+QStackedWidget, QLabel, QPushButton, QRadioButton, QCheckBox,
+QGroupBox, QStatusBar, QToolButton, QComboBox, QDialog {
+
+color: #2b2b2b;
+font-family: "Segoe UI";
+}
+
+QStackedWidget {
+background-color: #f0f0f0;
+}
+
+
+QPushButton {
+border: 1px solid #736661;
+padding: 4px;
+min-width: 65px;
+min-height: 18px;
+border-radius:3px;
+}
+
+QPushButton:hover {
+background-color: #99cc33;
+border-color: #444444;
+color:#ffffff;
+}
+
+QPushButton:pressed {
+    background-color: #999933;
+    border-color: #333333;
+    color: #ffffff;
+    /*左内边距为3像素，让按下时字向右移动3像素*/
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/
+    padding-top:3px;
+}
+
+QPushButton:disabled {
+color: #cbd1d9;
+}
+
+/*按钮普通态*/
+#pushButton, #pushButton_2, #pushButton_3, #pushButton_4, #main_copyright
+{
+    /*字体为微软雅黑*/
+    font-family:Microsoft Yahei;
+    /*字体大小为14点*/
+    font-size:12pt;
+    /*字体颜色为白色*/
+    color:#000000;
+    /*背景颜色*/
+    background-color:#feffff;
+    /*边框圆角半径为8像素*/
+    border-radius:1px;
+    border: 0px solid #333333;
+    padding:10px;
+
+}
+
+/*按钮停留态*/
+#pushButton:hover, #pushButton_2:hover, #pushButton_3:hover, #pushButton_4:hover, #main_copyright:hover
+{
+    /*背景颜色*/
+    background-color:#f5f7f7;
+}
+
+/*按钮按下态*/
+#pushButton:pressed, #pushButton_2:pressed, #pushButton_3:pressed, #pushButton_4:pressed, #main_copyright:pressed
+{
+    /*背景颜色*/
+    background-color:#f5f7f7;
+    /*左内边距为3像素，让按下时字向右移动3像素*/
+    padding-left:5px;
+    font-weight:bold;
+    color:#647783;
+
+}
+/*按钮按下态*/
+#pushButton:disabled, #pushButton_2:disabled, #pushButton_3:disabled, #pushButton_4:disabled
+{
+    /*背景颜色*/
+    background-color:#f5f7f7;
+    font-weight:bold;
+    color:#647783;
+}
+
+#frame, #label
+{
+    /*背景颜色*/
+    background-color:#feffff;
+}
+#Panel4, #d
+{
+    /*背景颜色*/
+    background-color:#2b2b2b;
+}
+
+QLabel
+{
+    font-size:12pt;
+    font-family:"Microsoft Yahei";
+}
+
+
+
+#title
+{
+    font-size:10pt;
+    /*背景颜色*/
+    background-color:#feffff;
+    padding-left:20px;
+    color:#737373;
+}
+
+#xxx, #yyy
+{
+    /*字体为微软雅黑*/
+    font-family:"Microsoft Yahei";
+    /*字体颜色为白色*/
+    color:#1e704d;
+    /*背景颜色*/
+    background-color:#d5f1e5;
+    border:0px;
+    border-radius:0px;
+    min-height:32px;
+    min-width:32px;
+}
+#xxx:hover, #yyy:hover
+{
+    background-color:#b0d7c6;
+}
+
+#main_frame, #panel1_frame, #panel2_frame, #panel3_frame, #panel4_frame
+{
+    /*背景颜色*/
+    background-color:#d5f1e5;
+}
+
+#panel1_title, #panel2_title, #panel3_title, #panel4_title
+{
+    /*字体为微软雅黑*/
+    font-family:"Microsoft Yahei";
+    /*字体大小为20点*/
+    font-size:20pt;
+    /*字体颜色为白色*/
+    color:#166f6b;
+    /*背景颜色*/
+
+    font-weight:bold;
+}
+
+Line
+{
+    border: none;
+    background-color: #d5f1e5;
+    max-height:1px;
+}
+
+QLineEdit, QComboBox
+{
+    min-height:28px;
+    max-height:28px;
+    background-color:#eafaf1;
+}
+
+#panel1_line_edit5
+{
+  min-width: 68px;
+  min-height: 28px;
+}
+
+QGroupBox
+{
+    font-family:"Microsoft Yahei";
+    font:12pt;
+}
+
+QDateEdit
+{
+    min-height:28px;
+    max-height:28px;
+    background-color:#eafaf1;
+}
+
+QComboBox
+{
+min-width: 120px;
+}
+
+#panel4_dateEdit_1, #panel4_dateEdit_2, #panel4_dateEdit_3, #panel4_dateEdit_4, #panel1_date2
+{
+    min-width: 162px;
+}
+
+#panel4_pushButton_4, #panel4_pushButton_3
+{
+    min-height:36px;
+}
+
+#panel4_pushButton_2
+{
+    min-height:32px;
+    min-width:60px;
+    max-width:60px;
+    background-color:#99cc33;
+    color:"white";
+}

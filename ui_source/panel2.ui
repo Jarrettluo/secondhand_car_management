@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="panel2_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>995</width>
+      <height>889</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>960</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="panel2_title">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>160</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>960</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>检索车辆</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>451</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>车辆编码</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="panel2_line_edit1"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>车牌号</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="panel2_line_edit2"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="panel2_button1">
+         <property name="text">
+          <string>检索</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QComboBox" name="panel2_combo_box1"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>280</y>
+       <width>960</width>
+       <height>571</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>项目登记</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>941</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="6" column="4">
+        <widget class="QPushButton" name="prepare_6">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QDateEdit" name="dateEdit_6"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLineEdit" name="item7"/>
+       </item>
+       <item row="7" column="2">
+        <widget class="QComboBox" name="comboBox_7">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="7" column="3">
+        <widget class="QDateEdit" name="dateEdit_7"/>
+       </item>
+       <item row="7" column="4">
+        <widget class="QPushButton" name="prepare_7">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="price7"/>
+       </item>
+       <item row="8" column="2">
+        <widget class="QComboBox" name="comboBox_8">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="8" column="4">
+        <widget class="QPushButton" name="prepare_8">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QLineEdit" name="price9"/>
+       </item>
+       <item row="9" column="3">
+        <widget class="QDateEdit" name="dateEdit_9"/>
+       </item>
+       <item row="9" column="4">
+        <widget class="QPushButton" name="prepare_9">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="2">
+        <widget class="QComboBox" name="comboBox_9">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLineEdit" name="item10"/>
+       </item>
+       <item row="10" column="1">
+        <widget class="QLineEdit" name="price10"/>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLineEdit" name="item9"/>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLineEdit" name="price8"/>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLineEdit" name="item8"/>
+       </item>
+       <item row="8" column="3">
+        <widget class="QDateEdit" name="dateEdit_8"/>
+       </item>
+       <item row="12" column="1">
+        <widget class="QLineEdit" name="price12"/>
+       </item>
+       <item row="11" column="1">
+        <widget class="QLineEdit" name="price11"/>
+       </item>
+       <item row="10" column="3">
+        <widget class="QDateEdit" name="dateEdit_10"/>
+       </item>
+       <item row="12" column="0">
+        <widget class="QLineEdit" name="item12"/>
+       </item>
+       <item row="12" column="2">
+        <widget class="QComboBox" name="comboBox_12">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="13" column="1">
+        <widget class="QLineEdit" name="price13"/>
+       </item>
+       <item row="13" column="0">
+        <widget class="QLineEdit" name="item13"/>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLineEdit" name="item11"/>
+       </item>
+       <item row="11" column="3">
+        <widget class="QDateEdit" name="dateEdit_11"/>
+       </item>
+       <item row="12" column="4">
+        <widget class="QPushButton" name="prepare_12">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="2">
+        <widget class="QComboBox" name="comboBox_13">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="12" column="3">
+        <widget class="QDateEdit" name="dateEdit_12"/>
+       </item>
+       <item row="10" column="2">
+        <widget class="QComboBox" name="comboBox_10">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="11" column="2">
+        <widget class="QComboBox" name="comboBox_11">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="11" column="4">
+        <widget class="QPushButton" name="prepare_11">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="4">
+        <widget class="QPushButton" name="prepare_10">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="4">
+        <widget class="QPushButton" name="prepare_13">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="3">
+        <widget class="QDateEdit" name="dateEdit_13"/>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>付款人</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="item1"/>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>时间</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QComboBox" name="comboBox">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QPushButton" name="prepare_1">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLineEdit" name="item2"/>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="panel2_label">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>整备项目</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>整备金额</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QDateEdit" name="dateEdit"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="price1"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="price2"/>
+       </item>
+       <item row="3" column="3">
+        <widget class="QDateEdit" name="dateEdit_3"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="price4"/>
+       </item>
+       <item row="3" column="2">
+        <widget class="QComboBox" name="comboBox_3">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <property name="currentText">
+          <string>自筹</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QPushButton" name="prepare_2">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QComboBox" name="comboBox_4">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="price3"/>
+       </item>
+       <item row="3" column="4">
+        <widget class="QPushButton" name="prepare_3">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QDateEdit" name="dateEdit_4"/>
+       </item>
+       <item row="5" column="2">
+        <widget class="QComboBox" name="comboBox_5">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLineEdit" name="item6"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="price6"/>
+       </item>
+       <item row="2" column="2">
+        <widget class="QComboBox" name="comboBox_2">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <property name="currentText">
+          <string>自筹</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLineEdit" name="item3"/>
+       </item>
+       <item row="4" column="4">
+        <widget class="QPushButton" name="prepare_4">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="price5"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLineEdit" name="item4"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLineEdit" name="item5"/>
+       </item>
+       <item row="5" column="3">
+        <widget class="QDateEdit" name="dateEdit_5"/>
+       </item>
+       <item row="5" column="4">
+        <widget class="QPushButton" name="prepare_5">
+         <property name="text">
+          <string>确认</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QDateEdit" name="dateEdit_2"/>
+       </item>
+       <item row="6" column="2">
+        <widget class="QComboBox" name="comboBox_6">
+         <property name="editable">
+          <bool>true</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string>自筹</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>他人</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>确认提交</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

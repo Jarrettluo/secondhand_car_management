@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1011</width>
+    <height>897</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>601</x>
+      <y>406</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>589</x>
+      <y>406</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QFrame" name="panel3_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>995</width>
+      <height>889</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>230</y>
+       <width>961</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>961</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="panel3_label4">
+        <property name="text">
+         <string>购车费用:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label5">
+        <property name="text">
+         <string>0元</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label16">
+        <property name="text">
+         <string>|</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label6">
+        <property name="text">
+         <string>整备费用:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label7">
+        <property name="text">
+         <string>0元</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label17">
+        <property name="text">
+         <string>|</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label8">
+        <property name="text">
+         <string>总支出:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label9">
+        <property name="text">
+         <string>0元</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_lebel18">
+        <property name="text">
+         <string>|</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label15">
+        <property name="text">
+         <string>总利润:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label14">
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>280</y>
+       <width>960</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>300</y>
+       <width>961</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QTableWidget" name="panel3_table1">
+          <column>
+           <property name="text">
+            <string>出资人</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>出资金额</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>出资占比</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="panel3_table3">
+          <column>
+           <property name="text">
+            <string>出资人</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>利润金额</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>利润占比</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTableWidget" name="panel3_table2">
+        <column>
+         <property name="text">
+          <string>类型</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>金额</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>操作人</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>800</y>
+       <width>961</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="panel3_label10">
+        <property name="text">
+         <string>售车时间</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="panel3_dateEdit"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label11">
+        <property name="text">
+         <string>售车价格</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="panel3_line_edit3"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label12">
+        <property name="text">
+         <string>占比</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="panel3_doubleSpinBox"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="panel3_label13">
+        <property name="text">
+         <string>分成</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="panel3_line_edit4"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="panel3_pushbutton_2">
+        <property name="text">
+         <string>开始计算</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="panel3_title">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>160</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>960</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>检索车辆</string>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>451</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="panel3_label2">
+         <property name="text">
+          <string>车辆编码</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="panel3_line_edit1"/>
+       </item>
+       <item row="0" column="2">
+        <widget class="QComboBox" name="panel3_combo_box1"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="panel3_label3">
+         <property name="text">
+          <string>车牌号</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="panel3_line_edit2"/>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="panel3_pushbutton_1">
+         <property name="text">
+          <string>搜索</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1011</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
